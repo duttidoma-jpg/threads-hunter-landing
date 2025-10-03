@@ -140,6 +140,7 @@
                     <a href="#hero" class="nav-link text-gray-300 hover:text-purple-500 transition-colors">Главная</a>
                     <a href="#about" class="nav-link text-gray-300 hover:text-purple-500 transition-colors">О нас</a>
                     <a href="#services" class="nav-link text-gray-300 hover:text-purple-500 transition-colors">Услуги</a>
+                    <a href="#results" class="nav-link text-gray-300 hover:text-purple-500 transition-colors">Результаты</a>
                     <a href="#cases" class="nav-link text-gray-300 hover:text-purple-500 transition-colors">Кейсы</a>
                     <a href="#contacts" class="nav-link text-gray-300 hover:text-purple-500 transition-colors">Контакты</a>
                 </div>
@@ -155,30 +156,37 @@
     <!-- Hero Section -->
     <section id="hero" class="hero-gradient min-h-screen flex items-center justify-center relative overflow-hidden">
         <div class="absolute inset-0 bg-black opacity-20"></div>
-        <div class="relative z-10 max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-            <div class="fade-in">
+        <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="fade-in text-center">
                 <!-- Лого -->
-                <div class="mb-8">
-                    <div class="w-20 h-20 bg-purple-500 rounded-xl flex items-center justify-center mx-auto mb-4">
+                <div class="mb-12">
+                    <div class="w-20 h-20 bg-purple-500 rounded-xl flex items-center justify-center mx-auto mb-6">
                         <span class="text-white font-bold text-2xl">TH</span>
                     </div>
-                    <h1 class="text-5xl md:text-7xl font-bold mb-4">Threads Hunter</h1>
+                    <h1 class="text-4xl md:text-6xl font-bold mb-8 text-white">Threads Hunter</h1>
                 </div>
 
-                <!-- Слоган -->
-                <h2 class="text-2xl md:text-3xl text-gray-300 mb-6">
-                    Мы помогаем брендам занять лидирующие позиции в Threads
-                </h2>
-
-                <!-- Подзаголовок -->
-                <p class="text-xl text-gray-400 mb-8 max-w-3xl mx-auto">
-                    Стратегия, контент и рост для брендов в Threads. Мы упакуем аккаунт, выстроим контент-систему и приведём целевую аудиторию.
-                </p>
+                <!-- Главный посыл - крупными буквами -->
+                <div class="mb-12">
+                    <h2 class="text-3xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
+                        Превращаем ваш бренд в 
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
+                            лидера Threads
+                        </span>
+                    </h2>
+                    <p class="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
+                        Единственное агентство в СНГ с глубокой специализацией по Threads. 
+                        Стратегия + контент + рост = ваш успех.
+                    </p>
+                </div>
 
                 <!-- CTA кнопка -->
-                <a href="https://wa.me/77477302959" class="cta-button inline-block text-white px-8 py-4 text-lg font-semibold rounded-lg">
-                    Написать в WhatsApp
-                </a>
+                <div class="mb-16">
+                    <a href="https://wa.me/77477302959" class="cta-button inline-block text-white px-10 py-5 text-xl font-semibold rounded-2xl shadow-2xl transform hover:scale-105 transition-all duration-300">
+                        Получить консультацию
+                    </a>
+                    <p class="text-gray-400 mt-4">Ответим в течение 24 часов</p>
+                </div>
             </div>
         </div>
 
@@ -198,115 +206,115 @@
                 <div class="w-20 h-1 bg-purple-500 mx-auto mb-8"></div>
             </div>
             
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <!-- Левая часть: Аватар и основная информация -->
-                <div class="text-center lg:text-left">
-                    <div class="mb-8">
-                        <!-- Аватар основателя -->
-                        <div class="w-32 h-32 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full p-1 mx-auto lg:mx-0 mb-6">
-                            <img src="./assets/profile-photo.jpg" alt="Марлен, основатель Threads Hunter" class="w-full h-full rounded-full object-cover" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                            <div class="w-full h-full bg-gray-900 rounded-full flex items-center justify-center" style="display: none;">
-                                <span class="text-3xl font-bold text-purple-400">М</span>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+                <!-- Левая часть: Фото + кубики с цифрами -->
+                <div class="space-y-8">
+                    <!-- Фото основателя -->
+                    <div class="text-center">
+                        <div class="w-48 h-48 bg-gradient-to-br from-purple-500 to-pink-500 rounded-3xl p-1 mx-auto mb-6">
+                            <img src="./assets/profile-photo.jpg" alt="Марлен, основатель Threads Hunter" class="w-full h-full rounded-3xl object-cover" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="w-full h-full bg-gray-900 rounded-3xl flex items-center justify-center" style="display: none;">
+                                <span class="text-5xl font-bold text-purple-400">М</span>
                             </div>
                         </div>
                         
-                        <div class="mb-6">
-                            <h3 class="text-2xl font-bold mb-2">Марлен</h3>
-                            <p class="text-purple-400 text-lg">Основатель Threads Hunter</p>
-                            <div class="flex justify-center lg:justify-start mt-4 space-x-4">
-                                <a href="mailto:marlenyess17@gmail.com" class="text-gray-400 hover:text-purple-400 transition-colors">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                                        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
-                                        <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
-                                    </svg>
-                                </a>
-                                <a href="https://t.me/managerixx" class="text-gray-400 hover:text-purple-400 transition-colors">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                                        <path d="M18 3a1 1 0 00-1.196-.98l-13 2.5A1 1 0 003 5.5v9a1 1 0 00.804.98l13 2.5A1 1 0 0018 17V3z"></path>
-                                    </svg>
-                                </a>
-                            </div>
+                        <h3 class="text-3xl font-bold mb-2">Марлен</h3>
+                        <p class="text-purple-400 text-xl mb-4">Основатель Threads Hunter</p>
+                        
+                        <!-- Социальные ссылки -->
+                        <div class="flex justify-center space-x-6">
+                            <a href="mailto:marlenyess17@gmail.com" class="w-12 h-12 bg-gray-800 rounded-xl flex items-center justify-center text-gray-400 hover:text-purple-400 hover:bg-purple-500/20 transition-all">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                                </svg>
+                            </a>
+                            <a href="https://t.me/managerixx" class="w-12 h-12 bg-gray-800 rounded-xl flex items-center justify-center text-gray-400 hover:text-purple-400 hover:bg-purple-500/20 transition-all">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                                </svg>
+                            </a>
                         </div>
                     </div>
                     
-                    <!-- Достижения в цифрах -->
-                    <div class="grid grid-cols-2 gap-6 mb-8">
-                        <div class="text-center p-4 bg-black/30 rounded-lg">
-                            <div class="text-2xl font-bold text-purple-400 mb-1">6+</div>
-                            <div class="text-sm text-gray-400">Месяцев опыта</div>
+                    <!-- Кубики с достижениями -->
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="bg-gradient-to-br from-purple-600 to-purple-800 p-6 rounded-2xl text-center shadow-xl">
+                            <div class="text-4xl font-bold text-white mb-2">6+</div>
+                            <div class="text-purple-200 font-medium">Месяцев опыта</div>
                         </div>
-                        <div class="text-center p-4 bg-black/30 rounded-lg">
-                            <div class="text-2xl font-bold text-purple-400 mb-1">15+</div>
-                            <div class="text-sm text-gray-400">Успешных проектов</div>
+                        <div class="bg-gradient-to-br from-blue-600 to-blue-800 p-6 rounded-2xl text-center shadow-xl">
+                            <div class="text-4xl font-bold text-white mb-2">15+</div>
+                            <div class="text-blue-200 font-medium">Успешных проектов</div>
                         </div>
-                        <div class="text-center p-4 bg-black/30 rounded-lg">
-                            <div class="text-2xl font-bold text-purple-400 mb-1">1M+</div>
-                            <div class="text-sm text-gray-400">Суммарный охват</div>
+                        <div class="bg-gradient-to-br from-green-600 to-green-800 p-6 rounded-2xl text-center shadow-xl">
+                            <div class="text-4xl font-bold text-white mb-2">1M+</div>
+                            <div class="text-green-200 font-medium">Суммарный охват</div>
                         </div>
-                        <div class="text-center p-4 bg-black/30 rounded-lg">
-                            <div class="text-2xl font-bold text-purple-400 mb-1">90%+</div>
-                            <div class="text-sm text-gray-400">Конверсия клиентов</div>
+                        <div class="bg-gradient-to-br from-pink-600 to-pink-800 p-6 rounded-2xl text-center shadow-xl">
+                            <div class="text-4xl font-bold text-white mb-2">90%+</div>
+                            <div class="text-pink-200 font-medium">Конверсия клиентов</div>
                         </div>
                     </div>
                 </div>
                 
-                <!-- Правая часть: История и миссия -->
+                <!-- Правая часть: Описание компании -->
                 <div class="space-y-8">
-                    <!-- История -->
-                    <div>
-                        <h3 class="text-xl font-bold mb-4 text-purple-400">Наша история</h3>
-                        <div class="space-y-4 text-gray-300">
+                    <!-- Главное описание -->
+                    <div class="bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-2xl border border-gray-700">
+                        <h3 class="text-2xl font-bold mb-6 text-purple-400">Кто мы</h3>
+                        <div class="space-y-4 text-gray-300 text-lg leading-relaxed">
                             <p>
-                                Threads Hunter родился из понимания, что новая платформа требует принципиально иного подхода. 
-                                Когда Threads только появился, я сразу увидел его потенциал для брендов.
+                                <strong class="text-white">Threads Hunter</strong> — первое и единственное агентство в СНГ с глубокой специализацией по Threads. 
+                                Мы не просто ведём аккаунты, мы создаём целые экосистемы брендов в новой социальной реальности.
                             </p>
                             <p>
-                                Первые клиенты пришли через рекомендации — результаты говорили сами за себя. 
-                                <span class="text-purple-400">Tribute</span> и <span class="text-purple-400">Stepmania</span> 
-                                стали флагманскими проектами, показавшими возможности платформы.
-                            </p>
-                            <p>
-                                Сегодня мы — единственное в регионе агентство с глубокой специализацией по Threads. 
-                                Каждый проект — это не просто ведение аккаунта, а системная работа над брендом.
+                                Когда Meta запустила Threads, мы сразу поняли — это не просто "новый Twitter", а совершенно иная платформа с уникальными возможностями. 
+                                Наши первые клиенты получили фантастические результаты именно благодаря пониманию этих особенностей.
                             </p>
                         </div>
+                    </div>
+                    
+                    <!-- Наш подход -->
+                    <div class="bg-gradient-to-br from-purple-900/50 to-pink-900/50 p-8 rounded-2xl border border-purple-500/30">
+                        <h3 class="text-2xl font-bold mb-6 text-purple-400">Наш подход</h3>
+                        <ul class="space-y-4 text-gray-200">
+                            <li class="flex items-start">
+                                <div class="w-2 h-2 bg-purple-400 rounded-full mt-3 mr-4 flex-shrink-0"></div>
+                                <div>
+                                    <strong class="text-white">Глубокая аналитика</strong> — изучаем вашу нишу, конкурентов и аудitorию
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="w-2 h-2 bg-purple-400 rounded-full mt-3 mr-4 flex-shrink-0"></div>
+                                <div>
+                                    <strong class="text-white">Уникальная стратегия</strong> — создаём контент-план под особенности Threads
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="w-2 h-2 bg-purple-400 rounded-full mt-3 mr-4 flex-shrink-0"></div>
+                                <div>
+                                    <strong class="text-white">Системный рост</strong> — не просто подписчики, а вовлечённая аудитория
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="w-2 h-2 bg-purple-400 rounded-full mt-3 mr-4 flex-shrink-0"></div>
+                                <div>
+                                    <strong class="text-white">Прозрачная отчётность</strong> — видите каждый шаг и результат
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                     
                     <!-- Миссия -->
-                    <div class="bg-gradient-to-r from-purple-900/30 to-pink-900/30 p-6 rounded-xl border border-purple-500/20">
-                        <h3 class="text-xl font-bold mb-4 text-purple-400">Наша миссия</h3>
-                        <blockquote class="text-lg text-gray-200 italic">
-                            "Мы не просто ведём аккаунты в Threads — мы помогаем брендам найти свой уникальный голос 
-                            в новой социальной реальности и построить долгосрочные отношения с аудиторией."
+                    <div class="text-center p-8 bg-black/50 rounded-2xl border border-gray-800">
+                        <blockquote class="text-xl text-gray-200 italic leading-relaxed">
+                            "Наша миссия — помочь брендам не просто присутствовать в Threads, 
+                            а стать настоящими лидерами мнений и построить сообщества лояльных клиентов."
                         </blockquote>
-                        <div class="mt-4 text-right">
-                            <span class="text-purple-400 font-medium">— Марлен, основатель Threads Hunter</span>
+                        <div class="mt-6">
+                            <span class="text-purple-400 font-semibold text-lg">— Марлен, основатель Threads Hunter</span>
                         </div>
-                    </div>
-                    
-                    <!-- Почему Threads -->
-                    <div>
-                        <h3 class="text-xl font-bold mb-4 text-purple-400">Почему именно Threads?</h3>
-                        <ul class="space-y-3 text-gray-300">
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-green-400 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                                </svg>
-                                Новая платформа с огромным потенциалом роста
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-green-400 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                                </svg>
-                                Меньше конкуренции, больше возможностей выделиться
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-green-400 mr-3 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                                </svg>
-                                Более высокий органический охват и вовлечённость
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
@@ -414,8 +422,8 @@
         </div>
     </section>
 
-    <!-- Statistics Section -->
-    <section id="cases" class="py-20 bg-black">
+    <!-- Results Section -->
+    <section id="results" class="py-20 bg-black">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 slide-up">
                 <h2 class="text-4xl font-bold mb-6">Наши результаты</h2>
@@ -425,27 +433,62 @@
 
             <!-- Общая статистика -->
             <div class="mb-16">
-                <div class="bg-gray-900 rounded-2xl p-8 border border-gray-800">
-                    <div class="flex flex-col lg:flex-row items-center justify-between">
-                        <div class="mb-8 lg:mb-0 lg:mr-8 flex-1">
-                            <h3 class="text-2xl font-bold mb-6 text-center lg:text-left">Общая статистика за 30 дней</h3>
-                            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                                <div class="text-center lg:text-left">
-                                    <div class="text-3xl font-bold text-purple-400 mb-2">45,298</div>
-                                    <div class="text-gray-400">Просмотры</div>
+                <div class="bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl p-10 border border-gray-700 shadow-2xl">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                        <div>
+                            <h3 class="text-3xl font-bold mb-8 text-center lg:text-left">Актуальная статистика проектов</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                                <div class="text-center">
+                                    <div class="w-20 h-20 bg-purple-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="text-4xl font-bold text-white mb-2">40K+</div>
+                                    <div class="text-gray-400 font-medium">Просмотры в неделю</div>
                                 </div>
-                                <div class="text-center lg:text-left">
-                                    <div class="text-3xl font-bold text-purple-400 mb-2">1,371</div>
-                                    <div class="text-gray-400">Подписчики</div>
+                                <div class="text-center">
+                                    <div class="w-20 h-20 bg-blue-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="text-4xl font-bold text-white mb-2">14+</div>
+                                    <div class="text-gray-400 font-medium">Новых подписчиков</div>
                                 </div>
-                                <div class="text-center lg:text-left">
-                                    <div class="text-3xl font-bold text-purple-400 mb-2">383</div>
-                                    <div class="text-gray-400">Взаимодействия</div>
+                                <div class="text-center">
+                                    <div class="w-20 h-20 bg-green-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="text-4xl font-bold text-white mb-2">64+</div>
+                                    <div class="text-gray-400 font-medium">Ответов за неделю</div>
+                                </div>
+                            </div>
+                            
+                            <!-- Демография аудитории -->
+                            <div class="mt-8 bg-black/30 rounded-2xl p-6">
+                                <h4 class="text-xl font-semibold mb-4 text-purple-400">География аудитории</h4>
+                                <div class="space-y-3">
+                                    <div class="flex items-center justify-between">
+                                        <span class="text-gray-300">🇰🇿 Казахстан</span>
+                                        <span class="text-white font-semibold">43.8%</span>
+                                    </div>
+                                    <div class="flex items-center justify-between">
+                                        <span class="text-gray-300">🇷🇺 Россия</span>
+                                        <span class="text-white font-semibold">33.8%</span>
+                                    </div>
+                                    <div class="flex items-center justify-between">
+                                        <span class="text-gray-300">🇧🇾 Беларусь</span>
+                                        <span class="text-white font-semibold">6.2%</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="lg:flex-1 max-w-md">
-                            <img src="./assets/stats-overview.png" alt="Статистика просмотров за 30 дней" class="w-full rounded-xl shadow-lg" loading="lazy">
+                        <div>
+                            <img src="./assets/stats-overview.png" alt="Статистика просмотров за 30 дней" class="w-full rounded-2xl shadow-2xl border border-gray-600" loading="lazy">
                         </div>
                     </div>
                 </div>
@@ -453,278 +496,516 @@
 
             <!-- Блок конверсии -->
             <div class="mb-16">
-                <div class="bg-gradient-to-r from-purple-900/50 to-blue-900/50 rounded-2xl p-8 border border-purple-500/30">
-                    <div class="flex flex-col lg:flex-row items-center justify-between">
-                        <div class="mb-8 lg:mb-0 lg:mr-8 flex-1">
-                            <h3 class="text-2xl font-bold mb-6 text-center lg:text-left">Превосходная конверсия пользователей</h3>
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                <div class="text-center lg:text-left">
-                                    <div class="text-4xl font-bold text-green-400 mb-2">~90%</div>
-                                    <div class="text-gray-300">Конверсия на этапе онбординга</div>
-                                    <div class="text-sm text-gray-400 mt-1">Среднерыночный: ~30-40%</div>
+                <div class="bg-gradient-to-r from-purple-900/70 to-blue-900/70 rounded-3xl p-10 border border-purple-500/30 shadow-2xl">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                        <div>
+                            <h3 class="text-3xl font-bold mb-8 text-center lg:text-left">Превосходная конверсия</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                <div class="text-center">
+                                    <div class="text-5xl font-bold text-green-400 mb-4">~90%</div>
+                                    <div class="text-gray-200 font-semibold mb-2">Конверсия онбординга</div>
+                                    <div class="text-sm text-gray-400">Среднерыночный: ~30-40%</div>
                                 </div>
-                                <div class="text-center lg:text-left">
-                                    <div class="text-4xl font-bold text-green-400 mb-2">45%+</div>
-                                    <div class="text-gray-300">Удержание на глубинных шагах</div>
-                                    <div class="text-sm text-gray-400 mt-1">Среднерыночный: ~15-25%</div>
+                                <div class="text-center">
+                                    <div class="text-5xl font-bold text-green-400 mb-4">45%+</div>
+                                    <div class="text-gray-200 font-semibold mb-2">Удержание пользователей</div>
+                                    <div class="text-sm text-gray-400">Среднерыночный: ~15-25%</div>
                                 </div>
                             </div>
-                            <div class="mt-6 p-4 bg-black/20 rounded-lg">
-                                <div class="flex items-center mb-2">
-                                    <svg class="w-5 h-5 text-green-400 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <div class="mt-8 p-6 bg-black/30 rounded-2xl border border-green-500/30">
+                                <div class="flex items-center mb-3">
+                                    <svg class="w-6 h-6 text-green-400 mr-3" fill="currentColor" viewBox="0 0 20 20">
                                         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                                     </svg>
-                                    <span class="text-sm text-gray-300">Проект: STEPMANIA</span>
+                                    <span class="text-green-400 font-semibold">Проект: STEPMANIA</span>
                                 </div>
-                                <p class="text-sm text-gray-400">
-                                    Наша конверсия в разы превышает среднерыночные показатели благодаря правильно выстроенной воронке и глубокой аналитике пользовательского поведения.
+                                <p class="text-gray-300">
+                                    Благодаря правильно выстроенной воронке и глубокой аналитике пользовательского поведения, 
+                                    наша конверсия в разы превышает среднерыночные показатели.
                                 </p>
                             </div>
                         </div>
-                        <div class="lg:flex-1 max-w-md">
-                            <img src="./assets/conversion-stats.jpg" alt="Статистика конверсии пользователей" class="w-full rounded-xl shadow-lg border border-gray-700" loading="lazy">
+                        <div>
+                            <img src="./assets/conversion-stats.jpg" alt="Статистика конверсии пользователей" class="w-full rounded-2xl shadow-2xl border border-gray-600" loading="lazy">
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Еженедельная статистика -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <!-- Проект 1 -->
-                <div class="card-hover bg-gray-900 rounded-xl overflow-hidden border border-gray-800">
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-4 flex items-center">
-                            <div class="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
-                            Проект: Lifestyle блог
-                        </h3>
-                        <div class="grid grid-cols-2 gap-4 mb-4 text-sm">
-                            <div>
-                                <div class="text-gray-400">Публикации</div>
-                                <div class="text-lg font-semibold">8</div>
+            <!-- География аудитории -->
+            <div class="mb-16">
+                <div class="bg-gradient-to-br from-indigo-900/50 to-purple-900/50 rounded-3xl p-10 border border-indigo-500/30 shadow-2xl">
+                    <div class="text-center mb-8">
+                        <h3 class="text-3xl font-bold mb-4">География нашей аудитории</h3>
+                        <p class="text-lg text-gray-300">Мы работаем с аудиторией по всему СНГ и за его пределами</p>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                        <!-- Статистика по странам -->
+                        <div>
+                            <h4 class="text-xl font-semibold mb-6 text-indigo-400">По странам</h4>
+                            <div class="space-y-4">
+                                <div class="flex items-center justify-between p-4 bg-black/30 rounded-xl">
+                                    <div class="flex items-center">
+                                        <span class="text-2xl mr-3">🇰🇿</span>
+                                        <span class="text-white font-medium">Казахстан</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <div class="w-24 h-2 bg-gray-700 rounded-full mr-3 overflow-hidden">
+                                            <div class="h-full bg-gradient-to-r from-green-400 to-green-600 rounded-full" style="width: 43.8%"></div>
+                                        </div>
+                                        <span class="text-white font-bold min-w-[3rem]">43.8%</span>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between p-4 bg-black/30 rounded-xl">
+                                    <div class="flex items-center">
+                                        <span class="text-2xl mr-3">🇷🇺</span>
+                                        <span class="text-white font-medium">Россия</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <div class="w-24 h-2 bg-gray-700 rounded-full mr-3 overflow-hidden">
+                                            <div class="h-full bg-gradient-to-r from-blue-400 to-blue-600 rounded-full" style="width: 33.8%"></div>
+                                        </div>
+                                        <span class="text-white font-bold min-w-[3rem]">33.8%</span>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between p-4 bg-black/30 rounded-xl">
+                                    <div class="flex items-center">
+                                        <span class="text-2xl mr-3">🇧🇾</span>
+                                        <span class="text-white font-medium">Беларусь</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <div class="w-24 h-2 bg-gray-700 rounded-full mr-3 overflow-hidden">
+                                            <div class="h-full bg-gradient-to-r from-red-400 to-red-600 rounded-full" style="width: 6.2%"></div>
+                                        </div>
+                                        <span class="text-white font-bold min-w-[3rem]">6.2%</span>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between p-4 bg-black/30 rounded-xl">
+                                    <div class="flex items-center">
+                                        <span class="text-2xl mr-3">🇺🇦</span>
+                                        <span class="text-white font-medium">Украина</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <div class="w-24 h-2 bg-gray-700 rounded-full mr-3 overflow-hidden">
+                                            <div class="h-full bg-gradient-to-r from-yellow-400 to-yellow-600 rounded-full" style="width: 3.1%"></div>
+                                        </div>
+                                        <span class="text-white font-bold min-w-[3rem]">3.1%</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div>
-                                <div class="text-gray-400">Новые подписчики</div>
-                                <div class="text-lg font-semibold text-green-400">+1</div>
-                            </div>
-                            <div>
-                                <div class="text-gray-400">Просмотры</div>
-                                <div class="text-lg font-semibold">10.4k</div>
-                            </div>
-                            <div>
-                                <div class="text-gray-400">Ответы</div>
-                                <div class="text-lg font-semibold">44</div>
+                        </div>
+                        
+                        <!-- Статистика по городам -->
+                        <div>
+                            <h4 class="text-xl font-semibold mb-6 text-indigo-400">По городам</h4>
+                            <div class="space-y-4">
+                                <div class="flex items-center justify-between p-4 bg-black/30 rounded-xl">
+                                    <div class="flex items-center">
+                                        <div class="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
+                                        <span class="text-white font-medium">Алма-Ата</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <div class="w-20 h-2 bg-gray-700 rounded-full mr-3 overflow-hidden">
+                                            <div class="h-full bg-gradient-to-r from-green-400 to-green-600 rounded-full" style="width: 96%"></div>
+                                        </div>
+                                        <span class="text-white font-bold min-w-[3rem]">19.2%</span>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between p-4 bg-black/30 rounded-xl">
+                                    <div class="flex items-center">
+                                        <div class="w-3 h-3 bg-blue-500 rounded-full mr-3"></div>
+                                        <span class="text-white font-medium">Нур-Султан</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <div class="w-20 h-2 bg-gray-700 rounded-full mr-3 overflow-hidden">
+                                            <div class="h-full bg-gradient-to-r from-blue-400 to-blue-600 rounded-full" style="width: 48%"></div>
+                                        </div>
+                                        <span class="text-white font-bold min-w-[3rem]">9.2%</span>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between p-4 bg-black/30 rounded-xl">
+                                    <div class="flex items-center">
+                                        <div class="w-3 h-3 bg-purple-500 rounded-full mr-3"></div>
+                                        <span class="text-white font-medium">Москва</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <div class="w-20 h-2 bg-gray-700 rounded-full mr-3 overflow-hidden">
+                                            <div class="h-full bg-gradient-to-r from-purple-400 to-purple-600 rounded-full" style="width: 36%"></div>
+                                        </div>
+                                        <span class="text-white font-bold min-w-[3rem]">6.9%</span>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between p-4 bg-black/30 rounded-xl">
+                                    <div class="flex items-center">
+                                        <div class="w-3 h-3 bg-orange-500 rounded-full mr-3"></div>
+                                        <span class="text-white font-medium">Санкт-Петербург</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <div class="w-20 h-2 bg-gray-700 rounded-full mr-3 overflow-hidden">
+                                            <div class="h-full bg-gradient-to-r from-orange-400 to-orange-600 rounded-full" style="width: 32%"></div>
+                                        </div>
+                                        <span class="text-white font-bold min-w-[3rem]">6.2%</span>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between p-4 bg-black/30 rounded-xl">
+                                    <div class="flex items-center">
+                                        <div class="w-3 h-3 bg-red-500 rounded-full mr-3"></div>
+                                        <span class="text-white font-medium">Минск</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <div class="w-20 h-2 bg-gray-700 rounded-full mr-3 overflow-hidden">
+                                            <div class="h-full bg-gradient-to-r from-red-400 to-red-600 rounded-full" style="width: 12%"></div>
+                                        </div>
+                                        <span class="text-white font-bold min-w-[3rem]">2.3%</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="px-6 pb-6">
-                        <img src="./assets/stats-week1.png" alt="Еженедельная статистика проекта 1" class="w-full rounded-lg" loading="lazy">
-                    </div>
-                </div>
-
-                <!-- Проект 2 -->
-                <div class="card-hover bg-gray-900 rounded-xl overflow-hidden border border-gray-800">
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-4 flex items-center">
-                            <div class="w-3 h-3 bg-blue-500 rounded-full mr-3"></div>
-                            Проект: Тech стартап
-                        </h3>
-                        <div class="grid grid-cols-2 gap-4 mb-4 text-sm">
-                            <div>
-                                <div class="text-gray-400">Публикации</div>
-                                <div class="text-lg font-semibold">13</div>
+                    
+                    <!-- Ключевые инсайты -->
+                    <div class="mt-8 bg-gradient-to-r from-indigo-800/30 to-purple-800/30 p-6 rounded-2xl border border-indigo-500/20">
+                        <h5 class="text-lg font-semibold mb-3 text-indigo-400">Ключевые инсайты</h5>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-300">
+                            <div class="flex items-start">
+                                <svg class="w-4 h-4 text-green-400 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span><strong>77.6%</strong> аудитории из Казахстана и России</span>
                             </div>
-                            <div>
-                                <div class="text-gray-400">Новые подписчики</div>
-                                <div class="text-lg font-semibold text-green-400">+13</div>
-                            </div>
-                            <div>
-                                <div class="text-gray-400">Просмотры</div>
-                                <div class="text-lg font-semibold">29.7k</div>
-                            </div>
-                            <div>
-                                <div class="text-gray-400">Ответы</div>
-                                <div class="text-lg font-semibold">20</div>
+                            <div class="flex items-start">
+                                <svg class="w-4 h-4 text-green-400 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span>Широкое покрытие <strong>СНГ-региона</strong></span>
                             </div>
                         </div>
-                    </div>
-                    <div class="px-6 pb-6">
-                        <img src="./assets/stats-week2.png" alt="Еженедельная статистика проекта 2" class="w-full rounded-lg" loading="lazy">
-                    </div>
-                </div>
-
-                <!-- Проект 3 -->
-                <div class="card-hover bg-gray-900 rounded-xl overflow-hidden border border-gray-800">
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-4 flex items-center">
-                            <div class="w-3 h-3 bg-yellow-500 rounded-full mr-3"></div>
-                            Проект: Малый бизнес
-                        </h3>
-                        <div class="grid grid-cols-2 gap-4 mb-4 text-sm">
-                            <div>
-                                <div class="text-gray-400">Публикации</div>
-                                <div class="text-lg font-semibold">8</div>
-                            </div>
-                            <div>
-                                <div class="text-gray-400">Новые подписчики</div>
-                                <div class="text-lg font-semibold text-green-400">+3</div>
-                            </div>
-                            <div>
-                                <div class="text-gray-400">Просмотры</div>
-                                <div class="text-lg font-semibold">1.0k</div>
-                            </div>
-                            <div>
-                                <div class="text-gray-400">Ответы</div>
-                                <div class="text-lg font-semibold">1</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="px-6 pb-6">
-                        <img src="./assets/stats-week3.png" alt="Еженедельная статистика проекта 3" class="w-full rounded-lg" loading="lazy">
-                    </div>
-                </div>
-
-                <!-- Проект 4 -->
-                <div class="card-hover bg-gray-900 rounded-xl overflow-hidden border border-gray-800">
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-4 flex items-center">
-                            <div class="w-3 h-3 bg-purple-500 rounded-full mr-3"></div>
-                            Проект: Контент-креатор
-                        </h3>
-                        <div class="grid grid-cols-2 gap-4 mb-4 text-sm">
-                            <div>
-                                <div class="text-gray-400">Публикации</div>
-                                <div class="text-lg font-semibold">25</div>
-                            </div>
-                            <div>
-                                <div class="text-gray-400">Новые подписчики</div>
-                                <div class="text-lg font-semibold text-green-400">+5</div>
-                            </div>
-                            <div>
-                                <div class="text-gray-400">Просмотры</div>
-                                <div class="text-lg font-semibold">2.7k</div>
-                            </div>
-                            <div>
-                                <div class="text-gray-400">Ответы</div>
-                                <div class="text-lg font-semibold">0</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="px-6 pb-6">
-                        <img src="./assets/stats-week4.png" alt="Еженедельная статистика проекта 4" class="w-full rounded-lg" loading="lazy">
                     </div>
                 </div>
             </div>
 
-            <!-- CTA в секции статистики -->
-            <div class="text-center mt-12">
-                <p class="text-lg text-gray-300 mb-6">
-                    Хотите такие же результаты для своего бренда?
-                </p>
-                <a href="https://wa.me/77477302959" class="cta-button inline-block text-white px-8 py-3 text-lg font-semibold rounded-lg">
-                    Обсудить проект в WhatsApp
-                </a>
+            <!-- CTA в секции результатов -->
+            <div class="text-center">
+                <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 shadow-2xl">
+                    <h3 class="text-2xl font-bold mb-4">Хотите такие же результаты?</h3>
+                    <p class="text-lg mb-6 opacity-90">
+                        Обсудим ваш проект и покажем, как достичь подобных показателей
+                    </p>
+                    <a href="https://wa.me/77477302959" class="bg-white text-purple-600 px-8 py-4 text-lg font-semibold rounded-xl hover:bg-gray-100 transition-colors inline-block shadow-lg">
+                        Получить консультацию
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cases Section -->
+    <section id="cases" class="py-20 bg-gray-900">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 slide-up">
+                <h2 class="text-4xl font-bold mb-6">Кейсы проектов</h2>
+                <div class="w-20 h-1 bg-purple-500 mx-auto mb-8"></div>
+                <p class="text-xl text-gray-300">Реальная еженедельная статистика наших клиентов</p>
+            </div>
+
+            <!-- Сетка кейсов -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- Кейс 1 - Lifestyle блог -->
+                <div class="card-hover bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden border border-gray-700 shadow-xl">
+                    <div class="p-8">
+                        <div class="flex items-center justify-between mb-6">
+                            <div class="flex items-center">
+                                <div class="w-4 h-4 bg-green-500 rounded-full mr-4"></div>
+                                <h3 class="text-2xl font-semibold">Lifestyle блог</h3>
+                            </div>
+                            <div class="text-xs text-gray-400 bg-gray-700 px-3 py-1 rounded-full">
+                                1-8 сентября
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-6 mb-6">
+                            <div class="text-center p-4 bg-black/30 rounded-xl">
+                                <div class="text-2xl font-bold text-white mb-1">8</div>
+                                <div class="text-gray-400 text-sm">Публикации</div>
+                                <div class="text-xs text-green-400 mt-1">↑ стабильно</div>
+                            </div>
+                            <div class="text-center p-4 bg-black/30 rounded-xl">
+                                <div class="text-2xl font-bold text-green-400 mb-1">+1</div>
+                                <div class="text-gray-400 text-sm">Новые подписчики</div>
+                                <div class="text-xs text-gray-500 mt-1">предыдущие: 3</div>
+                            </div>
+                            <div class="text-center p-4 bg-black/30 rounded-xl">
+                                <div class="text-2xl font-bold text-purple-400 mb-1">10.4k</div>
+                                <div class="text-gray-400 text-sm">Просмотры</div>
+                                <div class="text-xs text-green-400 mt-1">↑ +100 от пред.</div>
+                            </div>
+                            <div class="text-center p-4 bg-black/30 rounded-xl">
+                                <div class="text-2xl font-bold text-blue-400 mb-1">44</div>
+                                <div class="text-gray-400 text-sm">Ответы</div>
+                                <div class="text-xs text-green-400 mt-1">↑ +16 от пред.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-8 pb-8">
+                        <img src="./assets/stats-week1.png" alt="Еженедельная статистика lifestyle блога" class="w-full rounded-xl shadow-lg border border-gray-600" loading="lazy">
+                    </div>
+                </div>
+
+                <!-- Кейс 2 - Tech стартап -->
+                <div class="card-hover bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden border border-gray-700 shadow-xl">
+                    <div class="p-8">
+                        <div class="flex items-center justify-between mb-6">
+                            <div class="flex items-center">
+                                <div class="w-4 h-4 bg-blue-500 rounded-full mr-4"></div>
+                                <h3 class="text-2xl font-semibold">Tech стартап</h3>
+                            </div>
+                            <div class="text-xs text-gray-400 bg-gray-700 px-3 py-1 rounded-full">
+                                1-8 сентября
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-6 mb-6">
+                            <div class="text-center p-4 bg-black/30 rounded-xl">
+                                <div class="text-2xl font-bold text-white mb-1">13</div>
+                                <div class="text-gray-400 text-sm">Публикации</div>
+                                <div class="text-xs text-green-400 mt-1">↑ от предыдущих 0</div>
+                            </div>
+                            <div class="text-center p-4 bg-black/30 rounded-xl">
+                                <div class="text-2xl font-bold text-green-400 mb-1">+13</div>
+                                <div class="text-gray-400 text-sm">Новые подписчики</div>
+                                <div class="text-xs text-green-400 mt-1">↑ отличный рост</div>
+                            </div>
+                            <div class="text-center p-4 bg-black/30 rounded-xl">
+                                <div class="text-2xl font-bold text-purple-400 mb-1">29.7k</div>
+                                <div class="text-gray-400 text-sm">Просмотры</div>
+                                <div class="text-xs text-green-400 mt-1">↑ +28.3k от пред.</div>
+                            </div>
+                            <div class="text-center p-4 bg-black/30 rounded-xl">
+                                <div class="text-2xl font-bold text-blue-400 mb-1">20</div>
+                                <div class="text-gray-400 text-sm">Ответы</div>
+                                <div class="text-xs text-green-400 mt-1">↑ +19 от пред.</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Дополнительная информация о росте -->
+                        <div class="bg-gradient-to-r from-blue-900/30 to-purple-900/30 p-4 rounded-xl border border-blue-500/20">
+                            <div class="flex items-center mb-2">
+                                <svg class="w-4 h-4 text-green-400 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-green-400 font-semibold text-sm">Взрывной рост</span>
+                            </div>
+                            <p class="text-xs text-gray-300">
+                                Пример того, как правильная стратегия контента может дать мгновенный результат для tech-проектов
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-8 pb-8">
+                        <img src="./assets/stats-week2.png" alt="Еженедельная статистика tech стартапа" class="w-full rounded-xl shadow-lg border border-gray-600" loading="lazy">
+                    </div>
+                </div>
+
+                <!-- Кейс 3 -->
+                <div class="card-hover bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden border border-gray-700 shadow-xl">
+                    <div class="p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-4 h-4 bg-yellow-500 rounded-full mr-4"></div>
+                            <h3 class="text-2xl font-semibold">Малый бизнес</h3>
+                        </div>
+                        <div class="grid grid-cols-2 gap-6 mb-6">
+                            <div class="text-center p-4 bg-black/30 rounded-xl">
+                                <div class="text-2xl font-bold text-white mb-1">8</div>
+                                <div class="text-gray-400 text-sm">Публикации</div>
+                            </div>
+                            <div class="text-center p-4 bg-black/30 rounded-xl">
+                                <div class="text-2xl font-bold text-green-400 mb-1">+3</div>
+                                <div class="text-gray-400 text-sm">Новые подписчики</div>
+                            </div>
+                            <div class="text-center p-4 bg-black/30 rounded-xl">
+                                <div class="text-2xl font-bold text-purple-400 mb-1">1.0k</div>
+                                <div class="text-gray-400 text-sm">Просмотры</div>
+                            </div>
+                            <div class="text-center p-4 bg-black/30 rounded-xl">
+                                <div class="text-2xl font-bold text-blue-400 mb-1">1</div>
+                                <div class="text-gray-400 text-sm">Ответы</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-8 pb-8">
+                        <img src="./assets/stats-week3.png" alt="Еженедельная статистика проекта 3" class="w-full rounded-xl shadow-lg border border-gray-600" loading="lazy">
+                    </div>
+                </div>
+
+                <!-- Кейс 4 -->
+                <div class="card-hover bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden border border-gray-700 shadow-xl">
+                    <div class="p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-4 h-4 bg-purple-500 rounded-full mr-4"></div>
+                            <h3 class="text-2xl font-semibold">Контент-креатор</h3>
+                        </div>
+                        <div class="grid grid-cols-2 gap-6 mb-6">
+                            <div class="text-center p-4 bg-black/30 rounded-xl">
+                                <div class="text-2xl font-bold text-white mb-1">25</div>
+                                <div class="text-gray-400 text-sm">Публикации</div>
+                            </div>
+                            <div class="text-center p-4 bg-black/30 rounded-xl">
+                                <div class="text-2xl font-bold text-green-400 mb-1">+5</div>
+                                <div class="text-gray-400 text-sm">Новые подписчики</div>
+                            </div>
+                            <div class="text-center p-4 bg-black/30 rounded-xl">
+                                <div class="text-2xl font-bold text-purple-400 mb-1">2.7k</div>
+                                <div class="text-gray-400 text-sm">Просмотры</div>
+                            </div>
+                            <div class="text-center p-4 bg-black/30 rounded-xl">
+                                <div class="text-2xl font-bold text-blue-400 mb-1">0</div>
+                                <div class="text-gray-400 text-sm">Ответы</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-8 pb-8">
+                        <img src="./assets/stats-week4.png" alt="Еженедельная статистика проекта 4" class="w-full rounded-xl shadow-lg border border-gray-600" loading="lazy">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Reviews Section -->
-    <section id="reviews" class="py-20 bg-gray-900">
+    <section id="reviews" class="py-20 bg-black">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 slide-up">
-                <h2 class="text-4xl font-bold mb-6">Отзывы</h2>
+                <h2 class="text-4xl font-bold mb-6">Отзывы клиентов</h2>
                 <div class="w-20 h-1 bg-purple-500 mx-auto mb-8"></div>
-            </div>
-
-            <!-- Реальные отзывы клиентов -->
-            <div class="text-center mb-8">
-                <p class="text-lg text-gray-400">Скриншоты реальных отзывов от наших клиентов</p>
+                <p class="text-xl text-gray-300">Скриншоты реальных отзывов от наших партнёров</p>
             </div>
             
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
-                <!-- Отзыв 1 - Скриншот -->
-                <div class="bg-gray-900 p-6 rounded-2xl border border-gray-700 shadow-2xl">
-                    <div class="mb-4">
-                        <div class="flex items-center mb-4">
-                            <div class="w-3 h-3 bg-green-500 rounded-full mr-2"></div>
-                            <span class="text-sm text-gray-400">Реальный скриншот сообщения</span>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                <!-- Отзыв 1 -->
+                <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 border border-gray-700 shadow-2xl">
+                    <div class="mb-6">
+                        <div class="flex items-center justify between mb-6">
+                            <div class="flex items-center">
+                                <div class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center mr-4">
+                                    <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-bold text-white">Callmedenchik</h4>
+                                    <p class="text-purple-400">Партнёр проекта</p>
+                                </div>
+                            </div>
+                            <div class="text-right">
+                                <div class="bg-green-500/20 text-green-400 px-3 py-1 rounded-full text-sm font-medium">
+                                    Проверено
+                                </div>
+                            </div>
                         </div>
-                        <h4 class="text-lg font-semibold mb-2">Отзыв от Callmedenchik</h4>
-                        <p class="text-purple-400 text-sm">Партнёр проекта • 2 сентября</p>
                     </div>
                     
-                    <!-- Скриншот отзыва -->
-                    <div class="relative">
-                        <img src="./assets/review1.png" alt="Реальный отзыв от Callmedenchik" class="w-full rounded-xl shadow-lg border border-gray-600" loading="lazy">
-                        <!-- Overlay с иконкой подтверждения -->
-                        <div class="absolute top-3 right-3 bg-green-500 w-8 h-8 rounded-full flex items-center justify-center">
-                            <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <div class="relative mb-6">
+                        <img src="./assets/review1.png" alt="Реальный отзыв от Callmedenchik" class="w-full rounded-2xl shadow-lg border border-gray-600" loading="lazy">
+                        <div class="absolute top-4 right-4 bg-green-500 w-10 h-10 rounded-full flex items-center justify-center shadow-lg">
+                            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                             </svg>
                         </div>
                     </div>
                     
-                    <!-- Краткое резюме -->
-                    <div class="mt-4 p-4 bg-black/30 rounded-lg">
-                        <p class="text-sm text-gray-300">
-                            <span class="text-green-400 font-semibold">Ключевые моменты:</span> 
-                            Благодарность за искренность, профессионализм, способность исправлять ошибки и честность в работе.
-                        </p>
+                    <div class="bg-gradient-to-r from-green-900/30 to-emerald-900/30 p-6 rounded-2xl border border-green-500/20">
+                        <h5 class="text-green-400 font-semibold mb-3">Ключевые моменты:</h5>
+                        <ul class="space-y-2 text-gray-300">
+                            <li class="flex items-start">
+                                <div class="w-1.5 h-1.5 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                Искренность и честность в работе
+                            </li>
+                            <li class="flex items-start">
+                                <div class="w-1.5 h-1.5 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                Профессиональный подход к проектам
+                            </li>
+                            <li class="flex items-start">
+                                <div class="w-1.5 h-1.5 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                Способность быстро исправлять ошибки
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 
-                <!-- Отзыв 2 - Скриншот -->
-                <div class="bg-gray-900 p-6 rounded-2xl border border-gray-700 shadow-2xl">
-                    <div class="mb-4">
-                        <div class="flex items-center mb-4">
-                            <div class="w-3 h-3 bg-green-500 rounded-full mr-2"></div>
-                            <span class="text-sm text-gray-400">Реальный скриншот сообщения</span>
+                <!-- Отзыв 2 -->
+                <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 border border-gray-700 shadow-2xl">
+                    <div class="mb-6">
+                        <div class="flex items-center justify-between mb-6">
+                            <div class="flex items-center">
+                                <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mr-4">
+                                    <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-bold text-white">Продолжение отзыва</h4>
+                                    <p class="text-purple-400">Развёрнутая оценка</p>
+                                </div>
+                            </div>
+                            <div class="text-right">
+                                <div class="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-sm font-medium">
+                                    Проверено
+                                </div>
+                            </div>
                         </div>
-                        <h4 class="text-lg font-semibold mb-2">Продолжение отзыва</h4>
-                        <p class="text-purple-400 text-sm">Тот же партнёр • Развёрнутая оценка</p>
                     </div>
                     
-                    <!-- Скриншот отзыва -->
-                    <div class="relative">
-                        <img src="./assets/review2.png" alt="Продолжение реального отзыва" class="w-full rounded-xl shadow-lg border border-gray-600" loading="lazy">
-                        <!-- Overlay с иконкой подтверждения -->
-                        <div class="absolute top-3 right-3 bg-green-500 w-8 h-8 rounded-full flex items-center justify-center">
-                            <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <div class="relative mb-6">
+                        <img src="./assets/review2.png" alt="Продолжение реального отзыва" class="w-full rounded-2xl shadow-lg border border-gray-600" loading="lazy">
+                        <div class="absolute top-4 right-4 bg-blue-500 w-10 h-10 rounded-full flex items-center justify-center shadow-lg">
+                            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                             </svg>
                         </div>
                     </div>
                     
-                    <!-- Краткое резюме -->
-                    <div class="mt-4 p-4 bg-black/30 rounded-lg">
-                        <p class="text-sm text-gray-300">
-                            <span class="text-green-400 font-semibold">Ключевые моменты:</span> 
-                            Высокая оценка трудолюбия, экспертности и редкого профессионализма в сфере.
-                        </p>
+                    <div class="bg-gradient-to-r from-blue-900/30 to-indigo-900/30 p-6 rounded-2xl border border-blue-500/20">
+                        <h5 class="text-blue-400 font-semibold mb-3">Ключевые моменты:</h5>
+                        <ul class="space-y-2 text-gray-300">
+                            <li class="flex items-start">
+                                <div class="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                Высокий уровень трудолюбия
+                            </li>
+                            <li class="flex items-start">
+                                <div class="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                Глубокая экспертность в области
+                            </li>
+                            <li class="flex items-start">
+                                <div class="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                Редкий профессионализм в сфере
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
             
             <!-- Общая оценка -->
-            <div class="text-center mt-12">
-                <div class="inline-flex items-center space-x-2 bg-gradient-to-r from-yellow-500/20 to-orange-500/20 px-6 py-3 rounded-full border border-yellow-500/30">
-                    <div class="flex space-x-1">
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                        </svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                        </svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                        </svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                        </svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                        </svg>
+            <div class="text-center mt-16">
+                <div class="bg-gradient-to-r from-yellow-600/20 to-orange-600/20 rounded-2xl p-8 border border-yellow-500/30 inline-block">
+                    <div class="flex items-center justify-center space-x-4 mb-4">
+                        <div class="flex space-x-1">
+                            <svg class="w-8 h-8 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                            </svg>
+                            <svg class="w-8 h-8 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                            </svg>
+                            <svg class="w-8 h-8 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                            </svg>
+                            <svg class="w-8 h-8 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                            </svg>
+                            <svg class="w-8 h-8 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                            </svg>
+                        </div>
                     </div>
-                    <span class="text-yellow-400 font-semibold">5/5 • Проверенные отзывы</span>
+                    <div class="text-2xl font-bold text-yellow-400 mb-2">5.0 из 5</div>
+                    <div class="text-yellow-300 font-semibold">100% проверенные отзывы</div>
                 </div>
             </div>
         </div>
